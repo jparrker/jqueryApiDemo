@@ -1,0 +1,55 @@
+body {
+  background-color: #121212;
+}
+.toDo-content {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.6rem;
+  margin: 3px 0 15px 0;
+  background-color: #1f1b24;
+  vertical-align: middle;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+button {
+  color: black;
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.delete {
+  margin-right: 10px;
+}
+
+.to-do-filter {
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: white;
+}
+
+.new-task-content {
+  margin: 0 auto 15px auto;
+  width: 80%;
+}
+
+#new-task-content {
+  padding: 5px;
+}
+
+#create-task {
+  margin: 20px;
+}
